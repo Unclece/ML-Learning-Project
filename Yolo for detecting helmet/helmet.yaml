@@ -1,0 +1,23 @@
+# Dataset configuration for YOLOv8 helmet and safety gear detection
+
+# Paths to training, validation, and test datasets
+train: D:\VsCodeP\Yolo_for_Detecting_Helmet\datasets\css-data\train\
+val: D:\VsCodeP\Yolo_for_Detecting_Helmet\datasets\css-data\valid\
+test: D:\VsCodeP\Yolo_for_Detecting_Helmet\datasets\css-data\test\
+
+# Number of classes
+nc: 10
+
+# Class names
+names: [
+  Hardhat,
+  Mask,
+  NO-Hardhat,
+  NO-Mask,
+  NO-Safety Vest,
+  Person,
+  Safety Cone,
+  Safety Vest,
+  machinery,
+  vehicle
+]
